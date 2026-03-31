@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.4.7"
+  version: "1.5.0"
 
 package:
   name: bedrock-agentcore
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/b/bedrock-agentcore/bedrock_agentcore-${{ version }}.tar.gz
-  sha256: 422805482e47593010128a86495dff644507624b00c6e09950613c7241ae5375
+  sha256: 21e224c22fa3877c8a389100df4385ebc965bd81fc8c0d6fc9c48eb83b078d4a
 
 build:
   number: 0
