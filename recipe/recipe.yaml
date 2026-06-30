@@ -23,14 +23,14 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - boto3 >=1.43.0
-    - botocore >=1.43.0
+    - boto3 >=1.43.1
+    - botocore >=1.43.1
     - pydantic >=2.0.0,<2.41.3
     - urllib3 >=1.26.0
     - starlette >=0.46.2
     - typing_extensions >=4.13.2,<5.0.0
     - uvicorn >=0.34.2
-    - websockets >=12.0
+    - websockets >=13.0
 
 tests:
   - python:
