@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.24.0"
+  version: "1.24.1"
 
 package:
   name: bedrock-agentcore
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/b/bedrock-agentcore/bedrock_agentcore-${{ version }}.tar.gz
-  sha256: f3999e45668343c753424a8886b1f95cf1015c7d4b27788a93099c8de233c6ae
+  sha256: 6921bcd331635087c61bc0c0a484b7bfb36c66845e70cf19bc1e1e0f498b7e9d
 
 build:
   number: 0
@@ -23,8 +23,8 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - boto3 >=1.43.72
-    - botocore >=1.43.72
+    - boto3 >=1.43.103
+    - botocore >=1.43.103
     - pydantic >=2.0.0,<2.41.3
     - urllib3 >=1.26.0
     - starlette >=0.46.2
